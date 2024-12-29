@@ -4,6 +4,63 @@
     <title>Online Museum</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+ ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+ a {
+    color: red;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 15px;
+    border: 8px;
+}
+
+img {
+aligen:"center";
+    width: 200px
+    height: 200px;
+    border-radius: 4px;
+<br>;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+}
+
 <body>
     <header>
         <h1>Welcome to the Online Museum</h1>
